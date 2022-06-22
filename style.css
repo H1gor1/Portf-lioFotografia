@@ -49,17 +49,39 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    background-image:  url(mohammad-alizade-XgeZu2jBaVI-unsplash.jpg);
 
 }
 
-/*
-    background-image: url(img1.jpg);
-    -webkit-filter: blur(15px);
-    -moz-filter: blur(15px);
-    -o-filter: blur(15px);
-    -ms-filter: blur(15px);
-    filter: blur(15px);
-*/
+.botao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0;
+    outline: 0;
+    width: 75px;
+    height: 75px;
+    background-color: transparent;
+}
+
+.botao:hover{
+    cursor: pointer;
+}
+
+.buttonImage {
+    width: 75px;
+    height: 75px;
+}
+
+#leftButton{
+    position: absolute;
+    left: 5px;
+}
+
+#rightButton{
+    position: absolute;
+    right: 5px;
+}
 
 .content img {
     position: absolute;
