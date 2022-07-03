@@ -6,7 +6,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image:  url(../images/img1.jpg);
+    background-image:  url(../images/img1Blur.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 
 .botao{
@@ -43,4 +45,24 @@
     position: absolute;
     max-width: 97.5%;
     max-height: 97.5%;
+}
+
+/* Telefones em paisagem e abaixo */
+@media (max-width: 480px) { 
+    /* estilos aqui */
+}
+
+/* Telefones em paisagem a tablet em retrato */
+@media (max-width: 767px) {
+    /* estilos aqui */
+}
+
+/* Tablet em retrato a paisagem e desktop */
+@media (min-width: 768px) and (max-width: 979px) {
+    /* estilos aqui */
+}
+
+/* Desktop grande */
+@media (min-width: 1200px) {
+   /* estilos aqui */
 }

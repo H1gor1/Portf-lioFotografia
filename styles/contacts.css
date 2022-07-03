@@ -6,12 +6,17 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #d7cec7;
+    z-index: 1;
+    background-color: white;
 }
 
 .map{
     position: absolute;
     left: 5%;
+}
+
+.map h2{
+    margin-bottom: 72px;
 }
 
 .form{
@@ -55,4 +60,104 @@
 .logocontato{
     max-width: 50px;
     max-height: 50px;
+}
+
+@media (max-width: 1399px){
+    .content{
+        position: absolute;
+        top: 120px;
+        width: 100%;
+        height: 85%;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        z-index: 1;
+        background-color: white;
+    }
+
+    .map {
+        position: relative;
+        margin-bottom: 150px;
+    }
+
+    .map h2{
+        margin-bottom: 0px;
+    }
+
+    .form {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+        margin-left: 15%;
+    }
+
+    .titulo {
+        margin-bottom: 90%;
+    }
+}
+
+/* Telefones em paisagem e abaixo */
+@media (max-width: 480px) { 
+    .content{
+        position: absolute;
+        top: 120px;
+        width: 100%;
+        height: 85%;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        z-index: 1;
+        background-color: white;
+    }
+
+    .map {
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        margin-bottom: 150px;
+    }
+
+    .map iframe {
+        width: 250px;
+        height: 250px;
+    }
+
+    .map h2{
+        margin-bottom: 0px;
+    }
+
+    .form {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+        margin-left: 15%;
+        max-width: 100%;
+        max-height: 100%;
+        width: auto;
+        height: auto;
+    }
+
+    .titulo {
+        margin-bottom: 90%;
+    }
+}
+
+/* Telefones em paisagem a tablet em retrato */
+@media (max-width: 767px) {
+    /* estilos aqui */
+}
+
+/* Tablet em retrato a paisagem e desktop */
+@media (min-width: 768px) and (max-width: 979px) {
+    /* estilos aqui */
+}
+
+/* Desktop grande */
+@media (min-width: 1200px) {
+   /* estilos aqui */
 }
