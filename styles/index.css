@@ -27,18 +27,22 @@
 }
 
 .buttonImage {
-    width: 75px;
-    height: 75px;
+    max-width: 75px;
+    max-height: 100px;
+    width: auto;
+    height: auto;
 }
 
 #leftButton{
     position: absolute;
     left: 5px;
+    z-index: 15;
 }
 
 #rightButton{
     position: absolute;
     right: 5px;
+    z-index: 15;
 }
 
 .content img {

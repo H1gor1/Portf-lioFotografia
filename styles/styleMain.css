@@ -68,12 +68,6 @@ body{
     outline: 0;
     background-color: whitesmoke;
   }
-  /*
-  .dropButton:hover{
-    background-color: rgb(212, 206, 206);
-    cursor: pointer;
-  }
-  */
 
   .dropdown-content {
     display: none;
@@ -125,8 +119,19 @@ body{
 
     .headerItensDrop {
         display: block;
-        
-        
+    }
+
+    #logo {
+        max-width: 333.75px;
+        max-height: 176.25px;
+        width: auto;
+        height: auto;
+        border-radius: 100%;
+        margin-left: 5%;
+    }
+
+    .link {
+        margin: 15px;
     }
 }
 
