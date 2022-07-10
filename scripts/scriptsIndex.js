@@ -1,7 +1,7 @@
 var nmrImg = 0;
 var img = [];
 var imgBlur = [];
-var tempo = 4;
+var tempo = 6;
 var contador = 1;
 
 img[0] = "./images/img1.jpg";
