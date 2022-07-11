@@ -1,0 +1,5 @@
+Site de portfólio de fotografia.
+
+Higor Gabriel Lino Silva
+
+Este site basicamente é um site portfólio que tem como intúito mostrar o trabalho que a empresa faz e uma forma de contato com a empresa. O site oferece na página inicial um carrosel de fotos que é dinâmico utilizando javascript, ele muda a imagem a cada 6 segundos e ao usuário clicar no botão, além disso na página de contatos, utilizei do google maps para fazer um embed do mapa do google mostrando o local da loja física e um formulário que utiliza de um API chamada "Formspark" que envia o email de contato sem que o usuário precise ir até seu aplicativo de email e tenha que fazer login.

@@ -1,3 +1,7 @@
+/*
+    Este é o arquivo que controla o css do header e do footer de todas as páginas.
+*/
+
 body{
     padding: 0;
     margin: 0;
@@ -106,12 +110,6 @@ body{
     margin-left: 5px;
 }
 
-/* Telefones em paisagem e abaixo */
-@media (max-width: 480px) { 
-    
-}
-
-/* Telefones em paisagem a tablet em retrato */
 @media (max-width: 767px) {
     .headerItens {
         display: none;
@@ -134,14 +132,3 @@ body{
         margin: 15px;
     }
 }
-
-/* Tablet em retrato a paisagem e desktop */
-@media (min-width: 768px) and (max-width: 979px) {
-    /* estilos aqui */
-}
-
-/* Desktop grande */
-@media (min-width: 1200px) {
-   /* estilos aqui */
-}
-

@@ -1,3 +1,5 @@
+/*Este arquivo controla o css da página de contato, onde temos o mapa e o formulário para contato*/
+
 .content{
     position: absolute;
     top: 120px;
@@ -102,7 +104,6 @@
     }
 }
 
-/* Telefones em paisagem e abaixo */
 @media (max-width: 480px) { 
     .content{
         position: absolute;
@@ -149,19 +150,4 @@
     .titulo {
         margin-bottom: 90%;
     }
-}
-
-/* Telefones em paisagem a tablet em retrato */
-@media (max-width: 767px) {
-    /* estilos aqui */
-}
-
-/* Tablet em retrato a paisagem e desktop */
-@media (min-width: 768px) and (max-width: 979px) {
-    /* estilos aqui */
-}
-
-/* Desktop grande */
-@media (min-width: 1200px) {
-   /* estilos aqui */
 }
